@@ -60,6 +60,6 @@ GoatFactory.buildDefault();
 // { name: 'Hoof Face', hasHorns: true } // name will always be present, hasHorns always true.
 ```
 
-All of the `buildX` functions have `buildXList` equivalents.
+`.buildDefaultList` is also a thing.
 
 WOOP 🐐
