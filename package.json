@@ -1,6 +1,6 @@
 {
   "name": "factory-lab",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "An RnD department for your factories. Build JavaScript object in all possible variations.",
   "main": "lib/index.js",
   "scripts": {
