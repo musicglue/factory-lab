@@ -13,7 +13,7 @@ const setValue = (obj, { value, key }) => {
   if (value instanceof FactoryLab) {
     resolvedValue = value.build();
   } else if (typeof value === 'function') {
-    resolvedValue = value();
+    resolvedValue = value(obj);
   } else {
     resolvedValue = value;
   }
